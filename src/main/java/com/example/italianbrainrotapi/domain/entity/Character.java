@@ -14,9 +14,11 @@ public class Character {
     @Id
     private String characterId = UUID.randomUUID().toString();
 
+    private String imageUrl;
+
     private List<String> motive;
 
-    private String backgroundMusic;
+    private String backgroundMusicUrl;
 
     private String lore;
 }

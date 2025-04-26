@@ -5,7 +5,7 @@ import lombok.Data;
 import org.hibernate.validator.constraints.UUID;
 
 @Data
-public class BaseCharacterDtoChange {
+public class BaseCharacterDto {
 
     @UUID
     @NotBlank
